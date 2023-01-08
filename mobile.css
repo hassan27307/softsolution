@@ -1,0 +1,43 @@
+@media only screen and (max-width: 600px) {
+
+.navbar{
+	flex-direction: column;
+	align-items: center;
+
+}
+img{
+	display: none;
+}
+.header-div{
+    margin-top: 3rem;
+    margin-right: 2rem;
+	text-align: center;
+	
+}
+.main-Services{
+	display: flex;
+	flex-direction: column;
+	
+}
+#Services{
+width: 40vh;
+}
+
+input{
+	width: 40vh;
+	
+}
+
+#team{
+display: none;
+
+}
+body{
+    overflow-x: hidden;
+
+}
+.container{
+	margin: 10px auto;
+	width: 0;
+}
+}
